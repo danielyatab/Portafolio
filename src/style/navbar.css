@@ -1,0 +1,11 @@
+.nav__menu{
+  inset-block: 0;
+}
+
+.nav__link{
+  padding-block: 0.8rem;
+}
+
+.nav__active .nav__name {
+  color: #1b9954;
+}

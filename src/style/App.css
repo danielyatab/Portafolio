@@ -1,0 +1,38 @@
+:root {
+  --title-color: hsl(0,0%,40%);
+  --text-color: hsl(0,0%,100%);
+  --container-color: hsl(0,0%,87%);
+
+  --weigth-400:400;
+  --weigth-500:500;
+  --weigth-600:600;
+  --weigth-700:700;
+  --weigth-800:800;
+}
+
+body,
+input,
+textarea {
+  font-weight: var(--weigth-500);
+}
+
+
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-weight: var(--weigth-700);
+}

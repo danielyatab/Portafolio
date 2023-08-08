@@ -7,5 +7,28 @@
 }
 
 .nav__active .nav__name {
-  color: #1b9954;
+  color: #61d2b4;
+}
+
+.nav__active_lg .nav__name {
+  color: white;
+}
+
+.nav_menu_lg {
+  all: unset;
+}
+
+@media screen and (min-width: 1024px){
+  
+  .nav__name{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.6s ease;
+  }
+
+  .nav__link:hover .nav__name{
+    color: white;
+    opacity: 1;
+    visibility: visible;
+  }
 }

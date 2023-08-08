@@ -1,0 +1,24 @@
+.stats__title::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 1.4rem;
+  height: 0.8px;
+  background-color: gray;
+}
+
+.CircularProgressbar-path {
+  stroke: #61d2b4 !important;
+  stroke-linecap: butt !important;
+}
+
+.CircularProgressbar-trail{
+  stroke: #c2c2c2 !important;
+}
+
+.CircularProgressbar-text{
+  fill: #61d2b4 !important;
+  stroke-linecap: butt !important;
+  font-family: 'Roboto';
+}

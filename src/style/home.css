@@ -1,0 +1,22 @@
+
+
+.home__title::before{
+  content:'';
+  position: absolute;
+  left: 0;
+  top: 22%;
+  width: 2.4rem;
+  height: 0.2rem;
+  border-radius: 2rem;
+  background-color:#61d2b4;
+}
+
+
+
+
+/* ========BG BLOCK========= */
+
+.color__block {
+  clip-path: polygon(40% 0, 62% 51%, 37% 100%, 0 100%, 0 48%, 24% 0);
+  z-index: -2;
+}

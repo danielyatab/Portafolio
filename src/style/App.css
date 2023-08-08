@@ -36,3 +36,29 @@ h4 {
   color: var(--title-color);
   font-weight: var(--weigth-700);
 }
+
+
+
+.grid-columns {
+  grid-template-columns: 3.8fr 7.2fr;
+}
+
+
+/* ========BUTTON ANIMATION======= */
+.button_animation:hover{
+  color: white;
+}
+
+.button_animation::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #61d2b4;
+  transform: translate(100%);
+  z-index: -1;
+  transition: all 0.4s ease-out;
+}
+
+.button_animation:hover::before {
+  transform: translate(0);
+}

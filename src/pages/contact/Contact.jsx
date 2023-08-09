@@ -1,22 +1,21 @@
-
 import { FaEnvelopeOpen, FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaDribbble } from 'react-icons/fa'
 import { FiSend } from 'react-icons/fi'
 import '../../style/contact.css'
 import { Background } from '../../components/Background'
+
 export const Contact = () => {
   return (
-    <section className="container mx-auto  p-16 max-w-6xl">
-      <h2 className="text-5xl text-center mb-20 dark:text-white">Get in <span className="text-secondary">Touch</span>
+    <section className="container mx-auto  p-16 max-w-6xl ">
+      <h2 className="text-5xl text-center mb-10 lg:mb-40 dark:text-white">Get in <span className="text-secondary">Touch</span>
       </h2>
 
-      <div className="contact__container grid gap-16 ">
+      <div className="contact__container grid sm:grid-cols-1 sm:grid-rows-1 gap-16">
         <div className='contact__data'>
           <h3 className='text-2xl mb-4 dark:text-gray-300'>Dont be Shy!</h3>
           <p className='text-sm mb-5 font-normal dark:text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim minima non sequi asperiores modi, architecto corrupti aliquam necessitatibus, eligendi suscipit sint nostrum vel expedita unde porro facere accusantium temporibus earum.</p>
           <div className='contact__info mb-5 text-sm'>
             <div className='info__item'>
               <FaEnvelopeOpen className='info__icon' />
-
               <div>
                 <span className='info__tile font-normal'>Mail me</span>
                 <h4 className='font-bold dark:text-gray-300'>ingyatacoblas@gmail.com</h4>
@@ -25,7 +24,6 @@ export const Contact = () => {
 
             <div className='info__item'>
               <FaPhoneSquareAlt className='info__icon' />
-
               <div>
                 <span className='info__tile font-normal'>Call me</span>
                 <h4 className='font-bold dark:text-gray-300'>+51 92872813</h4>
@@ -76,7 +74,7 @@ export const Contact = () => {
                 required />
             </div>
 
-            <div className="form__input-div">
+            <div className="form__input-div sm:col-span-2">
               <input
                 type="text"
                 placeholder='Your subject'

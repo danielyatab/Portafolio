@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from 'react'
 import Close from '../assets/close.svg'
 
@@ -26,7 +27,7 @@ export const PortafolioItem = ({ img, title, details }) => {
             onClick={toogleModal} 
             />
             <h3 className="modal__title text-center text-secondary text-3xl tracking-widest mb-6">{title}</h3>
-            <ul className="modal__list grid grid-cols-2 gap-2 mb-6">
+            <ul className="modal__list grid grid-cols-1 sm:grid-cols-2 gap-2 mb-6">
               {details.map(({ icon, title, desc }, index) => (
                 <li className='flex items-center gap-2' key={index}>
                   <span className='item__icon flex'>{icon}</span>
@@ -38,7 +39,7 @@ export const PortafolioItem = ({ img, title, details }) => {
               ))}
             </ul>
 
-            <img src={img} alt={title} className='w-full h-96 rounded-md' />
+            <img src={img} alt={title} className='w-full  lg:h-96 rounded-md' />
           </div>
         </div>
       }

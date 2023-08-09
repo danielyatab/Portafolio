@@ -12,9 +12,11 @@ export const Navbar = () => {
   return (
     <nav className="nav fixed h-screen right-8 flex justify-center items-center z-10">
       <div className={
-        `nav__menu fixed  w-full py-16 px-8 transition-all duration-700 ease bg-white
+        `nav__menu fixed  w-full py-16 px-8 transition-all duration-700 ease 
+        bg-white lg:bg-transparent
+        dark:lg:bg-transparent
         dark:bg-gray-800  
-        lg:static  lg:p-0 dark:lg:bg-transparent
+        lg:static  lg:p-0 
         ${showMenu?'left-0':'-left-full'}`
       }>
         <ul  className="text-gray-800 text-md

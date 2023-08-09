@@ -353,5 +353,32 @@ export const PortafolioItems = [
       }
     ]
   },
+  {
+    id:7,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
   
 ]

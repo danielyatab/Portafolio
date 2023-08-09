@@ -39,16 +39,12 @@ h4 {
 
 
 
-.grid-columns {
-  grid-template-columns: 3.8fr 7.2fr;
-}
-
 
 /* ========BG BLOCK========= */
 
 .color__block {
   clip-path: polygon(40% 0, 62% 51%, 37% 100%, 0 100%, 0 48%, 24% 0);
-  z-index: -1;
+  z-index: -50;
 }
 
 

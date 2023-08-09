@@ -15,12 +15,12 @@ export const About = () => {
     <main className=" text-gray-400 mx-auto max-w-6xl ">
       <section className=" about mx-auto block text-center  mb-16">
         <h2 className="section__title text-4xl sm:text-5xl lg:text-5xl font-bold py-16 mb-12 bg-secondary lg:bg-transparent dark:text-white">
-          About <span>Me</span>
+          About <span className="text-white lg:text-secondary ">Me</span>
         </h2>
-        <div className="about__container grid grid-cols-2 gap-6 text-left px-16">
+        <div className="about__container grid  lg:grid-cols-2 gap-6 text-left px-16">
           <div className='aboute__info'>
             <h3 className='section__subtitule text-xl mb-4 dark:text-gray-400'>Personal info</h3>
-            <ul className='info__list grid grid-cols-2 gap-3 mb-4'>
+            <ul className='info__list grid grid-cols-1 sm:grid-cols-2 sm:gap-3 mb-4'>
               {/* Info */}
               <Info />
             </ul>
@@ -31,7 +31,7 @@ export const About = () => {
               </span>
             </a>
           </div>
-          <div className="stats grid grid-cols-2 gap-16">
+          <div className="stats grid  grid-cols-1 gap-8 sm:grid-cols-2 sm:gap-20 lg:gap-16">
             <Stats />
           </div>
         </div>
@@ -41,7 +41,7 @@ export const About = () => {
 
       <section className='skills mt-8'>
         <h3 className='text-2xl text-center dark:text-white'>My Skills</h3>
-        <div className='skills__container grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 p-12 '>
+        <div className='skills__container grid  grid-cols-2 lg:grid-cols-4 gap-12 p-12 '>
           <Skills />
         </div>
       </section>
@@ -51,7 +51,7 @@ export const About = () => {
       <section className='resume mt-8'>
       <h3 className='text-2xl text-center dark:text-white'>Experiencie & Education</h3>
 
-        <div className="resume-container grid grid-cols-2 gap-8 mb-20">
+        <div className="resume-container grid grid-cols-1 lg:grid-cols-2 gap-8 mb-20 p-8">
           <div className="resume__data">
             {
               resume.map((val)=>{

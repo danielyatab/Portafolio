@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import Profile from '../../assets/home.jpg'
 import { FaArrowRight } from 'react-icons/fa'
 import '../../style/home.css'
+import { Background } from '../../components/Background'
+
+
 
 export const Home = () => {
   return (
@@ -22,7 +25,7 @@ export const Home = () => {
 
         </div>
       </div>
-      <div className='fixed top-0 left-0 color__block bg-gray-200 dark:bg-secondarydark  h-full w-full'></div>
+      <Background />
     </section>
   )
 }

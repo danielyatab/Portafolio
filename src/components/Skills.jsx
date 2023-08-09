@@ -10,7 +10,7 @@ export const Skills = () => {
           <div className="progress__box w-1/2 mx-auto" key ={index}>
             <CircularProgressbar strokeWidth={3.5} text={`${percentage}%`} value={percentage}
             />
-            <h3 className="skills__title text-center pt-2 text-md text-gray-400">{title}</h3>
+            <h3 className="skills__title text-center pt-2 text-md text-gray-400 dark:text-white">{title}</h3>
           </div>
         ))
       }

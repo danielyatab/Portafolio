@@ -1,4 +1,8 @@
-import { FaBriefcase, FaEnvelopeOpen, FaFolderOpen, FaHome, FaUser } from 'react-icons/fa'
+import { FaBriefcase, FaEnvelopeOpen, FaFolderOpen, FaHome, FaUser, FaCode } from 'react-icons/fa'
+import {TbSourceCode} from 'react-icons/tb'
+import { FiFileText, FiUser } from 'react-icons/fi'
+import Work1 from './assets/pexels-rovenimagescom-949587.jpg'
+
 
 export const links = [
   {
@@ -109,7 +113,32 @@ export const resume = [
     year: '2018 - PRESENT',
     title: 'Web Developer <span> Envato </span>',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur ab quasi error tempora necessitatibus nemo. Esse voluptatibus illum'
-  }
+  },
+  {
+    id:2,
+    category:'experience',
+    icon: <FaBriefcase/>,
+    year: '2018 - PRESENT',
+    title: 'Web Developer <span> Envato </span>',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur ab quasi error tempora necessitatibus nemo. Esse voluptatibus illum'
+  },
+  {
+    id:3,
+    category:'education',
+    icon: <FaBriefcase/>,
+    year: '2018 - PRESENT',
+    title: 'Web Developer <span> Envato </span>',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur ab quasi error tempora necessitatibus nemo. Esse voluptatibus illum'
+  },
+  {
+    id:4,
+    category:'education',
+    icon: <FaBriefcase/>,
+    year: '2018 - PRESENT',
+    title: 'Web Developer <span> Envato </span>',
+    desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum consequatur ab quasi error tempora necessitatibus nemo. Esse voluptatibus illum'
+  },
+  
 ]
 
 export const skills = [
@@ -158,4 +187,171 @@ export const skills = [
     title: 'Mongo Db',
     percentage: '75',
   },
+]
+
+
+export const PortafolioItems = [
+  {
+    id:1,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  {
+    id:2,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  {
+    id:3,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  {
+    id:4,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  {
+    id:5,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  {
+    id:6,
+    img: Work1,
+    title: 'System Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project: ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client: ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Languaje: ',
+        desc: 'Java',
+      },
+      {
+        icon: <TbSourceCode />,
+        title: 'Preview: ',
+        desc: 'www.drible.com',
+      }
+    ]
+  },
+  
 ]

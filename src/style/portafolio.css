@@ -1,0 +1,25 @@
+
+.modal__close{
+  top: -1.3%;
+  right: -2.2%;
+}
+
+.portafolio__modal {
+  position: fixed;
+  inset: 0;
+  background-color: hsla(0,0%,0%,0.7);
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+
+.portafolio__title {
+  transform: translateY(-1.5rem);
+  transition: all 0.7s ease;
+}
+
+.portafolio__item:hover .portafolio__title{
+  transform: translateY(0);
+}

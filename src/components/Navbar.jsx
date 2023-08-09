@@ -12,9 +12,9 @@ export const Navbar = () => {
   return (
     <nav className="nav fixed h-screen right-8 flex justify-center items-center z-10">
       <div className={
-        `nav__menu fixed bg-white w-full py-16 px-8 transition-all duration-700 ease
+        `nav__menu fixed  w-full py-16 px-8 transition-all duration-700 ease bg-white
         dark:bg-gray-800  
-        lg:static  lg:p-0 dark:lg:bg-gray-900
+        lg:static  lg:p-0 dark:lg:bg-transparent
         ${showMenu?'left-0':'-left-full'}`
       }>
         <ul  className="text-gray-800 text-md
@@ -25,15 +25,15 @@ export const Navbar = () => {
               <NavLink 
                 to={path} 
                 className={({isActive}) => isActive 
-                ?'nav__link flex items-center gap-2  transition-all duration-700 ease border-b-2 border-gray-200 dark:border-gray-700 nav__active text-secondary lg:p-3 lg:border-none lg:bg-gray-100 lg:w-10 lg:rounded-full lg:relative lg:hover:bg-secondary  lg:hover:text-white dark:lg:bg-gray-500'
-                :'nav__link flex items-center gap-2 transition-all duration-700 ease border-b-2 border-gray-200 dark:border-gray-700 lg:border-none lg:bg-gray-100 lg:w-10 lg:rounded-full lg:relative lg:p-3  lg:hover:bg-secondary lg:hover:text-white dark:lg:bg-gray-500 dark:lg:text-white'
+                ?'nav__link flex items-center gap-2  transition-all duration-700 ease border-b-2 border-gray-200 dark:border-gray-700 nav__active text-secondary lg:p-3 lg:border-none lg:bg-gray-100 lg:w-10 lg:rounded-full lg:relative lg:hover:bg-secondary  lg:hover:text-white dark:lg:bg-gray-500 dark:lg:hover:bg-secondary'
+                :'nav__link flex items-center gap-2 transition-all duration-700 ease border-b-2 border-gray-200 dark:border-gray-700 lg:border-none lg:bg-gray-100 lg:w-10 lg:rounded-full lg:relative lg:p-3  lg:hover:bg-secondary lg:hover:text-white dark:lg:bg-gray-500 dark:lg:hover:bg-secondary dark:lg:text-white'
                 }
                 onClick={()=> setShowMenu(!showMenu)}
                 >
                 {icon}
                 <h3 className="nav__name 
                               dark:text-gray-200 
-                              lg:absolute lg:top-0 lg:right-0 lg:text-white lg:bg-secondary lg:h-full lg:px-4 lg:py-2 lg:rounded-3xl lg:hover:text-white"
+                              lg:absolute lg:top-0 lg:right-6 lg:text-white lg:bg-secondary lg:h-full lg:px-4 lg:py-2 lg:rounded-tl-3xl  lg:rounded-bl-3xl lg:hover:text-white"
                 >
                 {name}</h3>
               </NavLink>

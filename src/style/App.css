@@ -44,7 +44,20 @@ h4 {
 }
 
 
+/* ========BG BLOCK========= */
+
+.color__block {
+  clip-path: polygon(40% 0, 62% 51%, 37% 100%, 0 100%, 0 48%, 24% 0);
+  z-index: -1;
+}
+
+
 /* ========BUTTON ANIMATION======= */
+
+.button_animation {
+  border: 1px solid #61d2b4;
+}
+
 .button_animation:hover{
   color: white;
 }

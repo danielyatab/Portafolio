@@ -16,6 +16,7 @@ export const App = () => {
           <ButtonTheme />
         </div>
       </div>
+      <div className='animation-left fixed top-0 left-0 color__block lg:bg-gray-100 lg:dark:bg-secondarydark  h-full w-full bg-transparent'></div>
       <Routes>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />

@@ -1,12 +1,11 @@
 import { FaEnvelopeOpen, FaPhoneSquareAlt, FaFacebookF, FaTwitter, FaYoutube, FaDribbble } from 'react-icons/fa'
 import { FiSend } from 'react-icons/fi'
 import '../../style/contact.css'
-import { Background } from '../../components/Background'
 
 export const Contact = () => {
   return (
     <section className="container mx-auto  p-16 max-w-6xl ">
-      <h2 className="text-5xl text-center mb-10 lg:mb-40 dark:text-white">Get in <span className="text-secondary">Touch</span>
+      <h2 className="animation-top text-5xl text-center mb-10 lg:mb-40 dark:text-white">Get in <span className="text-secondary">Touch</span>
       </h2>
 
       <div className="contact__container grid sm:grid-cols-1 sm:grid-rows-1 gap-16">
@@ -100,7 +99,6 @@ export const Contact = () => {
 
         </form>
       </div>
-      <Background />
     </section>
   )
 }

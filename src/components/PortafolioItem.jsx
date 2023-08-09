@@ -12,7 +12,7 @@ export const PortafolioItem = ({ img, title, details }) => {
   }
 
   return (
-    <div className="portafolio__item  rounded-xl overflow-hidden cursor-pointer relative">
+    <div className="animation-right portafolio__item  rounded-xl overflow-hidden cursor-pointer relative">
       <img src={img} alt={title} className="h-56 w-full object-cover align-middle" />
       <div className="portafolio__hover absolute inset-0 opacity-0 grid place-items-center bg-secondary transition-all duration-700 ease hover:opacity-90" onClick={toogleModal}>
         <h3 className="portafolio__title text-white text-lg font-bold">{title}</h3>

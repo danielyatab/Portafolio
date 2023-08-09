@@ -71,3 +71,56 @@ h4 {
 .button_animation:hover::before {
   transform: translate(0);
 }
+
+
+/* ========ANIMACIONES DE APARICION======= */
+.animation-left {
+  animation: slideFromLeft 1.6s ease-in-out; 
+}
+
+.animation-top {
+  animation: slideFromtop 0.9s ease-in-out; 
+}
+
+.animation-right {
+  animation: slideFromRight 1.6s ease-in-out; 
+}
+
+
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-20%); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+
+@keyframes slideFromtop {
+  0% {
+    transform: translateY(-20%); 
+  }
+  100% {
+    transform: translateY(0); 
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(20%); 
+  }
+  100% {
+    transform: translateX(0); 
+  }
+}
+
+@keyframes moveAndRotate {
+  0% {
+    transform: rotate(0deg); /* Posición y rotación iniciales */
+  }
+  100% {
+    transform: rotate(360deg); /* Posición y rotación finales */
+  }
+}
